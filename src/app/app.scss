@@ -1,0 +1,65 @@
+.fatada {
+    position: relative;
+}
+
+.optiswiss{
+  opacity: 1 !important;
+}
+
+.fatada img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.5;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.overlay-text p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.map-overlay {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 25%;
+    height: 180px;
+}
+
+.map-overlay iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    transform: translateY(-50%);
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.schedule-overlay {
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    transform: translateY(-50%);
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
