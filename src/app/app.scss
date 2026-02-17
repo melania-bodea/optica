@@ -63,3 +63,46 @@
     padding: 20px;
 }
 
+/* =========================
+   Mobile phone version
+   ========================= */
+@media (max-width: 768px) {
+
+  .overlay-text,
+  .map-overlay,
+  .contact-overlay,
+  .schedule-overlay {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .overlay-text {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .overlay-text p {
+    font-size: 1rem;
+  }
+
+  .map-overlay {
+    height: 250px;
+  }
+
+  .contact-overlay,
+  .schedule-overlay {
+    padding: 15px;
+  }
+
+  .fatada {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fatada img {
+    opacity: 0.6;
+  }
+
+}
