@@ -30,10 +30,10 @@
 
 .map-overlay {
     position: absolute;
-    bottom: 10%;
-    right: 5%;
-    width: 25%;
-    height: 180px;
+    bottom: 7%;
+    right: 2%;
+    width: 32.5%;
+    height: 360px;
 }
 
 .map-overlay iframe {
@@ -46,19 +46,19 @@
 .contact-overlay {
     position: absolute;
     top: 20%;
-    right: 3%;
+    right: 2%;
     transform: translateY(-50%);
-    width: 25%;
+    width: 15%;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
+    padding: 10px;
 }
 
 .schedule-overlay {
     position: absolute;
-    top: 45%;
-    right: 3%;
+    top: 20%;
+    right: 20%;
     transform: translateY(-50%);
-    width: 25%;
+    width: 12%;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
 }
